@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MySuite" duration-ms="121125" started-at="2021-05-01T06:47:57Z" finished-at="2021-05-01T06:49:58Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="121125" started-at="2021-05-01T06:47:57Z" finished-at="2021-05-01T06:49:58Z">
+      <class name="tests.Solution1">
+        <test-method status="PASS" signature="suiteSetUp(java.lang.String)[pri:0, instance:tests.Solution1@6ba0ac]" name="suiteSetUp" is-config="true" duration-ms="153" started-at="2021-05-01T06:47:57Z" finished-at="2021-05-01T06:47:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suiteName]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.Solution1@6ba0ac]" name="setUp" is-config="true" duration-ms="31427" started-at="2021-05-01T06:47:57Z" finished-at="2021-05-01T06:48:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="flipkartAction()[pri:0, instance:tests.Solution1@6ba0ac]" name="flipkartAction" duration-ms="82389" started-at="2021-05-01T06:48:28Z" finished-at="2021-05-01T06:49:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartAction -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.Solution1@6ba0ac]" name="afterMethod" is-config="true" duration-ms="7145" started-at="2021-05-01T06:49:51Z" finished-at="2021-05-01T06:49:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flipkartAction status=SUCCESS method=Solution1.flipkartAction()[pri:0, instance:tests.Solution1@6ba0ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.Solution1 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- MySuite -->
+</testng-results>

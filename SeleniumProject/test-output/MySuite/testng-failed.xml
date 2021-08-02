@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [MySuite]">
+  <test thread-count="1" name="Test1(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="tests.Solution1">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="suiteSetUp"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- tests.Solution1 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [MySuite] -->
